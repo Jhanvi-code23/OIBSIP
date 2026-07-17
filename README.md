@@ -45,6 +45,10 @@ WebDev-L2-Task2-TributePage
 
 ![Home Page](screenshots/home-page.png)  <br>
 
+### Biography
+
+![Biography](screenshots/Biography.png)  <br>
+
 ### Journey Through Time
 
 ![Achievements](screenshots/achievements.png)  <br>
