@@ -41,16 +41,17 @@ WebDev-L2-Task2-TributePage
 
 ## 📸 Screenshots
 
-Add screenshots of the project in the `screenshots` folder.
+### Home Page
 
-Example:
+![Home Page](screenshots/home-page.png)  <br>
 
-```
-screenshots/
-├── homepage.png
-├── biography-section.png
-└── timeline-section.png
-```
+### Journey Through Time
+
+![Achievements](screenshots/achievements.png)  <br>
+
+### Quote Section
+
+![Quote](screenshots/quotation.png)  <br>
 
 ---
 
