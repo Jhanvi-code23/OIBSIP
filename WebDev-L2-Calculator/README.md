@@ -54,11 +54,16 @@ WebDev-L2-Task1-Calculator
 
 ### Calculator
 
-![Calculator](screenshots/calculator.png)
+![Calculator](Screenshots/Calaculator-homePage.png)
 
 ### History Panel
 
-![History](screenshots/history.png)
+![History](Screenshots/Calculator-History.png)
+
+### Error Handling
+
+![Error Handling](Screenshots/Calculator-ErrorHandling.png)
+
 
 ---
 
