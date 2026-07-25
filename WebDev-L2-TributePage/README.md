@@ -58,7 +58,7 @@ WebDev-L2-TributePage
 
 ### Biography Section
 
-![Biography](Screenshots/tributpage-biography.png)
+![Biography](Screenshots/tributepage-biography.png)
 
 ### Journey Through Time
 
