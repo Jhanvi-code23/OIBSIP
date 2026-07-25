@@ -1,26 +1,36 @@
 # Tribute Page – Leonardo da Vinci
 
-A responsive tribute webpage dedicated to **Leonardo da Vinci**—one of history's greatest artists, inventors, and visionaries. The page highlights his life, achievements, and enduring legacy through a clean and engaging design.
+A responsive tribute webpage dedicated to **Leonardo da Vinci**—the legendary Renaissance polymath whose contributions to art, science, engineering, and anatomy continue to inspire the world centuries later.
 
-This project was created as part of **Level 2 – Task 2** of the **Oasis Infobyte Web Development Internship**.
+Built as part of **Level 2 – Task 2** of the **Oasis Infobyte Web Development Internship**, this project combines elegant design with interactive elements to create an engaging tribute experience.
+
+---
+
+## 🌐 Live Demo
+
+🔗 **Visit Here:** https://leonardodavincitribute.netlify.app/
 
 ---
 
 ## 🚀 Features
 
-- Responsive and modern layout
-- Hero section with an introduction
-- Biography section
-- Timeline of major milestones and achievements
+- Fully responsive design for desktop, tablet, and mobile devices
+- Full-screen hero section with immersive background image
+- Fixed navigation bar with smooth scrolling
+- Interactive biography section with elegant typography
+- "Journey Through Time" timeline featuring 12 milestone cards
+- Expandable pop-up cards displaying additional information and images
+- Scroll progress indicator for enhanced navigation
 - Inspirational quote section
-- Clean and user-friendly interface
-
+- Hover animations and smooth transitions
+- Clean and visually balanced user interface
 ---
 
 ## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
+- Vanilla JavaScript
 - Google Fonts
 - Font Awesome
 
@@ -28,47 +38,53 @@ This project was created as part of **Level 2 – Task 2** of the **Oasis Infoby
 
 ## 📂 Project Structure
 
-```
-WebDev-L2-Task2-TributePage
+```text
+WebDev-L2-TributePage
 │
 ├── index.html
 ├── style.css
+├── script.js
 ├── README.md
-└── screenshots/
+└── Screenshots/
 ```
 
 ---
 
 ## 📸 Screenshots
 
-### Home Page
+### Hero Section
 
-![Home Page](screenshots/home-page.png)  <br>
+![Hero](Screenshots/tributepage-home.png)
 
-### Biography
+### Biography Section
 
-![Biography](screenshots/Biography.png)  <br>
+![Biography](Screenshots/tributpage-biography.png)
 
 ### Journey Through Time
 
-![Achievements](screenshots/achievements.png)  <br>
+![Timeline](Screenshots/tributepage-popup.png)
 
-### Quote Section
 
-![Quote](screenshots/quotation.png)  <br>
+### Quote
+
+![Quote](Screenshots/tributepage-quote.png)
 
 ---
 
 ## 📚 What I Learned
 
-Working on this project helped me improve my understanding of:
+
+Working on this project helped me strengthen my understanding of:
 
 - Semantic HTML structure
-- Responsive layouts using CSS
-- Page organization and content presentation
+- Responsive web design using CSS Media Queries
+- CSS Flexbox and Grid layouts
+- DOM manipulation with Vanilla JavaScript
+- Creating interactive pop-up modals
+- Event handling and user interactions
+- Smooth scrolling and scroll progress indicators
 - Typography, spacing, and visual hierarchy
-- Creating a clean and engaging user interface
-
+- Designing clean and engaging user interfaces
 ---
 
 ## ▶️ How to Run
@@ -79,15 +95,15 @@ Working on this project helped me improve my understanding of:
 git clone https://github.com/Jhanvi-code23/OIBSIP.git
 ```
 
-2. Open the project folder.
+2. Navigate to the project folder.
 
-3. Launch `index.html` in your preferred web browser.
+3. Open `index.html` in your preferred web browser.
 
 ---
 
-## 👨‍🎨 About Leonardo da Vinci
+## 🎨 About Leonardo da Vinci
 
-Leonardo da Vinci (1452–1519) was an Italian Renaissance polymath whose work transformed the worlds of art, science, and engineering. Best known for masterpieces such as the *Mona Lisa* and *The Last Supper*, he also made remarkable contributions to anatomy, architecture, and invention. His curiosity and creativity continue to inspire generations around the world.
+Leonardo da Vinci (1452–1519) was an Italian Renaissance polymath celebrated for his extraordinary achievements in painting, engineering, architecture, anatomy, and scientific research. His masterpieces, including the *Mona Lisa* and *The Last Supper*, transformed the world of art, while his notebooks revealed visionary ideas that were centuries ahead of their time. His relentless curiosity and innovative thinking continue to inspire artists, scientists, inventors, and dreamers across the globe.
 
 ---
 
@@ -95,8 +111,12 @@ Leonardo da Vinci (1452–1519) was an Italian Renaissance polymath whose work t
 
 **Jhanvi Gupta**
 
-GitHub: https://github.com/Jhanvi-code23
+- GitHub: https://github.com/Jhanvi-code23
+- LinkedIn: *(Add your LinkedIn profile here)*
 
 ---
+
+> *"Learning never exhausts the mind."*  
+> **— Leonardo da Vinci**
 
 *Created as part of the Oasis Infobyte Web Development Internship.*
