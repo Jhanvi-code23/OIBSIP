@@ -112,7 +112,7 @@ Leonardo da Vinci (1452–1519) was an Italian Renaissance polymath celebrated f
 **Jhanvi Gupta**
 
 - GitHub: https://github.com/Jhanvi-code23
-- LinkedIn: *(Add your LinkedIn profile here)*
+- LinkedIn: https://www.linkedin.com/in/jhanvi-gupta-975514320/
 
 ---
 
