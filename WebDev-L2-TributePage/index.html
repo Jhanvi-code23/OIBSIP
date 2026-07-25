@@ -7,16 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Leonardo da Vinci | Tribute Page</title>
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/10678/10678980.png">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 
     <link rel="stylesheet" href="style.css">
 
+
 </head>
 
 <body>
+
+    <div id="progress-bar"></div>
+
+    <nav class="navbar">
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#biography">Biography</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#quote-section">Quote</a></li>
+    </ul>
+    </nav>
+
 
     <header class="hero">
 
@@ -39,6 +54,7 @@
         </div>
 
     </header>
+
 
 
     <section class="biography" id="biography">
@@ -84,13 +100,15 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
 
 
 
-    <section class="achievements">
+    <section class="achievements" id="timeline">
 
         <div class="container">
 
             <h2>JOURNEY THROUGH TIME</h2>
 
             <div class="cards">
+
+                <!-- Card 1 -->
 
                 <div class="card">
 
@@ -101,6 +119,12 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
                         <h3>Birth in Vinci</h3>
 
                         <span>1452</span>
+                        <button class="readMore"
+                        data-title="Birth in Vinci"
+                        data-year="1452"
+                        data-image="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Maison_natale_de_L%C3%A9onard_de_Vinci.jpg/500px-Maison_natale_de_L%C3%A9onard_de_Vinci.jpg"
+                        data-description="Leonardo da Vinci was born on 15 April 1452 in the small Tuscan town of Vinci, near Florence, Italy. Although he was born out of wedlock, his upbringing allowed him to develop an early fascination with nature, landscapes, and the world around him. His childhood experiences in the countryside shaped the remarkable curiosity that later defined his life. From observing plants and animals to sketching his surroundings, Leonardo's passion for learning began long before he became a celebrated artist.">
+                        ↗ </button> <!-- Button to open popup -->
 
                         <p>
                             Born in the small village of Vinci, Italy, Leonardo
@@ -112,6 +136,7 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
 
                 </div>
 
+                <!-- Card 2 -->
 
                 <div class="card">
 
@@ -123,7 +148,12 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
                         <h3>Apprenticeship</h3>
 
                         <span>1466</span>
-
+                        <button class="readMore"
+                        data-title="Apprenticeship"
+                        data-year="1466"
+                        data-image="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Dizionario_biografico_universale_-_Vol._3_-_Incisione_2_-_Leonardo_da_Vinci.jpg/960px-Dizionario_biografico_universale_-_Vol._3_-_Incisione_2_-_Leonardo_da_Vinci.jpg"
+                        data-description="At around fourteen years of age, Leonardo joined the workshop of the renowned Florentine artist Andrea del Verrocchio. There he trained in painting, sculpture, metalwork, engineering, and architecture while working alongside talented apprentices. This diverse education gave him both artistic skill and technical knowledge, laying the foundation for his multidisciplinary career. His extraordinary talent soon distinguished him from his peers and earned him recognition within Florence's artistic community.">
+                        ↗ </button> <!-- Button to open popup -->
                         <p>
                             Began his artistic training under the renowned
                             painter Andrea del Verrocchio, where he honed his
@@ -134,7 +164,7 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
 
                 </div>
 
-
+                <!-- Card 3 -->
 
                 <div class="card">
 
@@ -146,6 +176,12 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
                         <h3>Guild of St. Luke</h3>
 
                         <span>1472</span>
+                        <button class="readMore"
+                        data-title="Guild of St. Luke"
+                        data-year="1472"
+                        data-image="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Jan_de_Bray_002.jpg/960px-Jan_de_Bray_002.jpg"
+                        data-description="In 1472, Leonardo became a member of Florence's Guild of Saint Luke, the professional organization for painters and physicians. Membership allowed him to accept commissions independently and marked an important milestone in his career. Although he continued working with Verrocchio for some time, this achievement established Leonardo as an artist in his own right and opened the door to larger creative opportunities throughout Italy.">
+                        ↗ </button> <!-- Button to open popup -->
 
                         <p>
                             Leonardo officially became a member of Florence's 
@@ -157,6 +193,7 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
 
                 </div>
 
+                <!-- Card 4 -->
 
                 <div class="card">
 
@@ -168,6 +205,12 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
                         <h3>Journey to Milan</h3>
 
                         <span>1482</span>
+                        <button class="readMore"
+                        data-title="Journey to Milan"
+                        data-year="1482"
+                        data-image="https://cdn.britannica.com/20/245120-050-762124DF/Adoration-of-the-Magi-unifinished-painting-by-Leonardo-da-Vinci-c-1492.jpg?w=1000"
+                        data-description="Leonardo moved to Milan around 1482 after presenting himself to Duke Ludovico Sforza as both an engineer and an artist. During his years in Milan, he designed military machines, architectural projects, theatrical productions, and remarkable works of art. This period became one of the most productive phases of his life, allowing him to combine creativity with scientific observation and engineering innovation on an unprecedented scale.">
+                        ↗ </button> <!-- Button to open popup -->
 
                         <p>
                             Leonardo moved to Milan to serve Duke Ludovico Sforza, 
@@ -179,6 +222,7 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
 
                 </div>
 
+                <!-- Card 5 -->
 
                 <div class="card">
 
@@ -186,11 +230,15 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
                         alt="Virgin of the Rocks">
 
                     <div class="card-content">
-
                         <h3>Virgin of the Rocks</h3>
 
                         <span>1483–1486</span>
-
+                        <button class="readMore"
+                        data-title="Virgin of the Rocks"
+                        data-year="1483–1486"
+                        data-image="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Jigsaw_puzzle_of_Holy_Mary.jpg/250px-Jigsaw_puzzle_of_Holy_Mary.jpg"
+                        data-description="During his early years in Milan, Leonardo painted *Virgin of the Rocks*, a masterpiece admired for its natural composition, subtle lighting, and realistic depiction of human emotion. The painting introduced innovative artistic techniques, including atmospheric perspective and smooth transitions of light and shadow, later known as sfumato. It demonstrated Leonardo's ability to merge scientific observation with artistic beauty.">
+                        ↗ </button> <!-- Button to open popup -->
                         <p>
                             He completed one of his earliest 
                             masterpieces, admired for its atmospheric 
@@ -201,6 +249,7 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
 
                 </div>
 
+                <!-- Card 6 -->
 
                 <div class="card">
 
@@ -212,7 +261,12 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
                         <h3>Vitruvian Man</h3>
 
                         <span>1490</span>
-
+                        <button class="readMore"
+                        data-title="Vitruvian Man"
+                        data-year="1490"
+                        data-image="https://upload.wikimedia.org/wikipedia/commons/6/69/Vitruvian_Man_by_Giacomo_Andrea.jpg"
+                        data-description="Around 1490, Leonardo created the famous drawing known as the *Vitruvian Man*, inspired by the writings of the ancient Roman architect Vitruvius. The illustration explored the mathematical proportions of the human body and reflected Leonardo's belief that art, science, and nature were deeply interconnected. Today it remains one of the world's most recognizable symbols of Renaissance thinking and human potential.">
+                        ↗ </button> <!-- Button to open popup -->
                         <p>
                             Leonardo combined art, anatomy, and 
                             mathematics to create the iconic drawing 
@@ -223,6 +277,7 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
 
                 </div>
 
+                <!-- Card 7 -->
                  <div class="card">
 
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/1920px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg"
@@ -233,7 +288,12 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
                         <h3>The Last Supper</h3>
 
                         <span>1495–1498</span>
-
+                        <button class="readMore"
+                        data-title="The Last Supper"
+                        data-year="1495–1498"
+                        data-image="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/1920px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg"
+                        data-description="Between 1495 and 1498, Leonardo completed *The Last Supper* in the convent of Santa Maria delle Grazie in Milan. Rather than depicting a static religious scene, he captured the dramatic moment when Jesus announced that one of his disciples would betray him. The painting's balanced composition, emotional expressions, and innovative perspective transformed religious art and continue to influence artists centuries later.">
+                        ↗ </button> <!-- Button to open popup -->
                         <p>
                             One of the greatest religious paintings
                             ever created, celebrated for its emotional 
@@ -245,6 +305,7 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
                  </div>
 
 
+                <!-- Card 8 -->
                  <div class="card">
 
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Annunciation_%28Leonardo_c._1472%E2%80%931476%29.jpg/960px-Annunciation_%28Leonardo_c._1472%E2%80%931476%29.jpg"
@@ -255,6 +316,12 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
                         <h3>A New Beginning</h3>
 
                         <span>1499</span>
+                        <button class="readMore"
+                        data-title="A New Beginning"
+                        data-year="1499"
+                        data-image="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Annunciation_%28Leonardo_c._1472%E2%80%931476%29.jpg/960px-Annunciation_%28Leonardo_c._1472%E2%80%931476%29.jpg"
+                        data-description="Following the French invasion of Milan in 1499, Leonardo was forced to leave the city after the fall of Duke Ludovico Sforza's rule. Although this marked the end of an important chapter in his life, it also opened new opportunities across Italy. He continued accepting artistic commissions, conducting scientific research, and expanding his notebooks with ideas that reflected his endless curiosity and creativity.">
+                        ↗ </button> <!-- Button to open popup -->
 
                         <p>
                             Following the French invasion of Milan, 
@@ -267,6 +334,7 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
                  </div>
 
 
+                 <!-- Card 9 -->
                  <div class="card">
 
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mona_Lisa_color_restoration2.jpg/960px-Mona_Lisa_color_restoration2.jpg"
@@ -277,6 +345,12 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
                         <h3>Mona Lisa</h3>
 
                         <span>1503-1506</span>
+                        <button class="readMore"
+                        data-title="Mona Lisa"
+                        data-year="1503-1506"
+                        data-image="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mona_Lisa_color_restoration2.jpg/960px-Mona_Lisa_color_restoration2.jpg"
+                        data-description="Around 1503, Leonardo began painting the *Mona Lisa*, a portrait that would later become one of the most celebrated works in the history of art. Instead of delivering it to its original patron, he continued refining the painting for years, constantly perfecting its details. The mysterious smile, delicate use of sfumato, and lifelike expression transformed the portrait into a timeless masterpiece admired around the world.">
+                        ↗ </button> <!-- Button to open popup -->
 
                         <p>
                             Leonardo began painting the Mona Lisa,
@@ -290,6 +364,7 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
 
 
 
+                 <!-- Card 10 -->
                  <div class="card">
 
                     <img src="https://cmsadmin.rct.uk/sites/default/files/styles/rctr_scale_1010w/public/images/main/Fetus%20lead%20image.png.webp?itok=Bn_AvOUz"
@@ -300,6 +375,12 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
                         <h3>Anatomical Studies</h3>
 
                         <span>1508-1513</span>
+                        <button class="readMore"
+                        data-title="Anatomical Studies"
+                        data-year="1508-1513"
+                        data-image="https://cmsadmin.rct.uk/sites/default/files/styles/rctr_scale_1010w/public/images/main/Fetus%20lead%20image.png.webp?itok=Bn_AvOUz"
+                        data-description="Driven by an intense desire to understand the human body, Leonardo carried out detailed anatomical studies between 1508 and 1513. Through careful observation and dissections, he produced hundreds of accurate sketches of muscles, bones, organs, and the circulatory system. Although many of these discoveries remained unpublished during his lifetime, they demonstrated scientific methods far ahead of his era and continue to impress modern researchers.">
+                        ↗ </button> <!-- Button to open popup -->
 
                         <p>
                             Leonardo conducted extensive anatomical studies,
@@ -313,6 +394,7 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
 
 
 
+                 <!-- Card 11 -->
                  <div class="card">
 
                     <img src="https://cdn.britannica.com/15/252015-050-C6E1FD7C/Chateau-de-Chambord-double-helix-staircase.jpg?w=1000"
@@ -323,6 +405,12 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
                         <h3>Life in France</h3>
 
                         <span>1516</span>
+                        <button class="readMore"
+                        data-title="Life in France"
+                        data-year="1516"
+                        data-image="https://cdn.britannica.com/15/252015-050-C6E1FD7C/Chateau-de-Chambord-double-helix-staircase.jpg?w=1000"
+                        data-description="In 1516, Leonardo accepted an invitation from King Francis I of France and settled at the Château du Clos Lucé near the royal residence. Although his health gradually declined, he continued sketching, writing, advising the king, and discussing ideas on science, engineering, and art. The French king admired Leonardo deeply, treating him as both an honored guest and one of Europe's greatest intellectuals.">
+                        ↗ </button> <!-- Button to open popup -->
 
                         <p>
                             King Francis I invited Leonardo to France, 
@@ -336,6 +424,7 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
 
 
 
+                 <!-- Card 12 -->
                  <div class="card">
 
                     <img src="https://cdn.britannica.com/86/2086-050-C3E2C527/Self-portrait-chalk-drawing-Leonardo-da-Vinci-Turin.jpg?w=740&h=416&c=crop"
@@ -346,6 +435,12 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
                         <h3>An Eternal Legacy</h3>
 
                         <span>1519</span>
+                        <button class="readMore"
+                        data-title="An Eternal Legacy"
+                        data-year="1519"
+                        data-image="https://cdn.britannica.com/86/2086-050-C3E2C527/Self-portrait-chalk-drawing-Leonardo-da-Vinci-Turin.jpg?w=740&h=416&c=crop"
+                        data-description="Leonardo da Vinci passed away on 2 May 1519 at the age of sixty-seven in France. His notebooks, paintings, scientific observations, and engineering concepts continued to influence generations of artists, inventors, architects, and scientists. More than five centuries later, his legacy remains a powerful reminder that curiosity, creativity, and the pursuit of knowledge can shape the course of human history.">
+                        ↗ </button> <!-- Button to open popup -->
 
                         <p>
                             Leonardo passed away on 2 May 1519, 
@@ -365,7 +460,7 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
 
 
 
-    <section class="quote">
+    <section class="quote" id="quote-section">
 
         <div class="quote-box">
 
@@ -382,6 +477,25 @@ Even today, Leonardo's legacy continues to inspire artists, scientists, inventor
     </section>
 
 
+    
+
+<div class="popup-overlay">
+
+    <div class="popup">
+
+        <span class="close-popup">&times;</span>
+
+        <img id="popupImage">
+
+        <h3 id="popupTitle"></h3>
+
+        <span id="popupYear"></span>
+
+        <p id="popupText"></p>
+
+    </div>
+
+</div>
 
     <footer>
 
@@ -393,6 +507,8 @@ Inspired by the life and legacy of Leonardo da Vinci.<br><br>
         <p>
 
     </footer>
+
+        <script src="script.js"></script>
 
 </body>
 

@@ -6,12 +6,6 @@ This project was created as part of **Level 2 – Task 2** of the **Oasis Infoby
 
 ---
 
-## 🌐 Live Demo
-
-🔗 https://leonardodavincitribute.netlify.app/
-
----
-
 ## 🚀 Features
 
 - Responsive and modern layout
