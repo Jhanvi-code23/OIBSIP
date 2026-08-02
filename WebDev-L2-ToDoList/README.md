@@ -6,7 +6,7 @@ This project was created as part of **Level 2 – Task 2** of the Oasis Infobyte
 
 ## 🔗 Project Links
 
-**Live Demo:** [https://your-todo-app-link.netlify.app](https://checkmate-todolist.netlify.app/)
+**Live Demo:** [https://checkmate-todo-app-link.netlify.app](https://checkmate-todolist.netlify.app/)
 
 **GitHub Repository:** [https://github.com/Jhanvi-code23/OIBSIP/tree/main/WebDev-L2-ToDoList](https://github.com/Jhanvi-code23/OIBSIP/new/main/WebDev-L2-ToDoList)
 
