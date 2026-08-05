@@ -1,0 +1,91 @@
+<!-- WE NEED username/Email, Password, Remember Me, Login button, Don't have an account?, Register link -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CheckMate | Login</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="auth.css">
+
+</head>
+
+<body>
+
+    <div class="auth-container">
+
+        <div class="auth-card">
+
+            <img src="assets/logo.png" alt="CheckMate Logo" class="logo">
+
+            <h1>CheckMate</h1>
+
+            <p>Welcome Back!</p>
+
+            <form id="loginForm">
+
+                <!-- Username OR Email -->
+                <input
+                    type="text"
+                    id="loginInput"
+                    placeholder="Username or Email">
+
+                <!-- Password -->
+                <div class="password-box">
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Password">
+
+                    <i class="fa-solid fa-eye togglePassword"></i>
+
+                </div>
+
+                <button type="submit">
+
+                    Login
+
+                </button>
+
+            </form>
+
+            <p class="bottom-text">
+
+                Don't have an account?
+
+                <a href="register.html">
+
+                    Register
+
+                </a>
+
+            </p>
+
+            <!-- Error / Success Message -->
+            <p id="message"></p>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="hash.js"></script>
+    <script src="auth.js"></script>
+    <script src="login.js"></script>
+    <script src="password.js"></script>
+
+</body>
+
+</html>

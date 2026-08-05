@@ -1,0 +1,268 @@
+<!-- THIS WILL BE THE DASHBOARD / PROTECTED PAGE - MAIN PAGE OF APP -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CheckMate | To-Do List</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <header>
+
+        <nav class="navbar">
+
+    <div class="logo">
+        <img src="assets/logo.png" alt="CheckMate Logo">
+
+        <div class="logo-text">
+            <h2>CheckMate</h2>
+            <p>Check your tasks • Checkmate your day •</p>
+        </div>
+    </div>
+
+    <!-- Right Side -->
+    <div class="user-section">
+
+        <span id="welcomeUser">
+            Welcome
+        </span>
+
+        <button id="logoutBtn">
+            <i class="fa-solid fa-right-from-bracket"></i>
+            Logout
+        </button>
+
+    </div>
+
+</nav>
+
+    </header>
+
+
+    <main class="container">
+        <section class="hero">
+            <h1>What's your next move?</h1>
+            <p>Every move brings you closer to checkmate.</p>
+        </section>
+
+
+        <!-- Input Section -->
+        <section class="input-section">
+
+            <div class="input-box">
+                <input
+                    type="text"
+                    id="taskInput"
+                    placeholder="Add a new task...">
+
+                <button id="addBtn">
+                    <i class="fa-solid fa-plus"></i>
+                    Add Task
+                </button>
+            </div>
+
+        </section>
+
+
+        <!-- Progress Section -->
+        <section class="progress-section">
+
+            <div class="progress-card">
+
+                <div class="progress-heading">
+                    <h2>Overall Progress</h2>
+                </div>
+
+
+                <!-- Donut Chart -->
+                <div class="progress-content">
+                <div class="chart-container">
+
+                    <div class="donut-chart">
+
+                        <span id="progressPercent">
+                            0%
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Stats -->
+
+                <div class="stats">
+
+                    <div class="stat-box">
+
+                        <h3 id="totalTasks">
+                            0
+                        </h3>
+
+                        <p>Total</p>
+
+                    </div>
+
+                    <div class="stat-box">
+
+                        <h3 id="pendingCount">
+                            0
+                        </h3>
+
+                        <p>Pending</p>
+
+                    </div>
+
+                    <div class="stat-box">
+
+                        <h3 id="completedCount">
+                            0
+                        </h3>
+
+                        <p>Completed</p>
+
+                    </div>
+
+                </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="task-board">
+
+            <!-- Pending Tasks -->
+
+            <div class="task-column">
+
+                <div class="column-header">
+                    <h2>
+                        <i class="fa-regular fa-clock"></i>
+                        Pending Tasks
+                    </h2>
+
+                    <span id="pendingBadge">
+                        0 Pending
+                    </span>
+
+                </div>
+
+
+                <!-- Empty State -->
+
+                <div class="empty-state" id="pendingEmpty">
+                    <img src="assets\logo.png" alt="Mascot">
+
+                    <h3>Nothing pending!</h3>
+
+                    <p>
+                        You're all caught up.
+                        Time to relax 🎉
+                    </p>
+                </div>
+
+
+                <!-- tasks list -->
+                <div
+                    class="task-list"
+                    id="pendingList">
+                </div>
+            </div>
+
+
+
+            <!-- Completed Tasks -->
+
+            <div class="task-column">
+
+                <div class="column-header">
+                    <h2>
+                        <i class="fa-solid fa-circle-check"></i>
+                        Completed Tasks
+                    </h2>
+
+                    <span id="completedBadge">
+                        0 Completed
+                    </span>
+                </div>
+
+
+                <!-- Empty State -->
+                <div
+                    class="empty-state"
+                    id="completedEmpty">
+
+                    <img
+                        src="assets\incomplete.png"
+                        alt="Mascot">
+
+                    <h3>No completed tasks yet.</h3>
+
+                    <p>
+                        Finish a task to celebrate your
+                        first CheckMate!
+                    </p>
+                </div>
+
+
+                <!-- tasks list -->
+                <div
+                    class="task-list"
+                    id="completedList">
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <!-- Clear Workboard Section -->
+        <section class="clear-section">
+
+            <button id="clearBtn">
+                <i class="fa-solid fa-trash"></i>
+                Clear Workboard
+            </button>
+
+        </section>
+
+    </main>
+
+
+
+    <footer>
+        <p>
+           © 2026 CheckMate • Every checkmark is progress.
+        </p>
+    </footer>
+
+
+
+    <!-- JavaScript -->
+
+    <script src="auth.js"></script>
+    <script src="hash.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
