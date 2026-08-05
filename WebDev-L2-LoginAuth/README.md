@@ -68,7 +68,7 @@ WebDev-L2-LoginAuth
 
 ### Registration Page
 
-*Registration Page Screenshot*
+
 
 ### Login Page
 
