@@ -67,19 +67,19 @@ WebDev-L2-LoginAuth
 ## 📸 Screenshots
 
 ### Registration Page
-![Registration page](screenshots.RegisterPage.png)
+![Registration page](screenshots/RegisterPage.png)
 
 ### Login Page
 
-![Login page](screenshots.LoginPage.png)
+![Login page](screenshots/LoginPage.png)
 
 ### Protected Dashboard
 
-![Protected page](screenshots.ProtectedPage.png)
+![Protected page](screenshots/ProtectedPage.png)
 
 ### User-specific Workspace
 
-![Workspace page](screenshots.Dashboard.png)
+![Workspace page](screenshots/Dashboard.png)
 
 ---
 
