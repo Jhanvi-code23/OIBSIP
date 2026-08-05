@@ -1,35 +1,36 @@
 # Oasis Infobyte Web Development Internship (OIBSIP)
 
-This repository contains all the projects completed during my **Web Development Internship** at **Oasis Infobyte**. Each project focuses on strengthening core web development concepts through practical implementation using HTML, CSS, and JavaScript.
+This repository contains all the projects completed during my **Web Development Internship at Oasis Infobyte**. Each project focuses on strengthening different aspects of frontend development—from building responsive user interfaces and interactive web pages to implementing client-side authentication and dynamic task management using Vanilla JavaScript.
 
 ---
 
 ## 📌 Projects
 
-### 🔹 Level 2 – Task 1
-### Calculator
+### 🔹 Level 2 – Task 1 | Calculator
+A responsive web calculator built using **HTML, CSS, and JavaScript**. The application performs basic arithmetic operations while supporting keyboard input, calculation history, decimal values, percentage calculations, and error handling for a smooth user experience.
 
-A responsive calculator capable of performing basic arithmetic operations with a clean and intuitive user interface.
-
-**Tech Stack:** HTML5, CSS3, JavaScript
+**Tech Stack:** HTML5 • CSS3 • JavaScript
 
 ---
 
-### 🔹 Level 2 – Task 2
-### CheckMate – To-Do List
+### 🔹 Level 2 – Task 2 | Tribute Page
+An interactive tribute webpage dedicated to **Leonardo da Vinci**, featuring a modern responsive design, timeline-based content, smooth scrolling, scroll progress indicator, and JavaScript-powered pop-up cards to create an engaging reading experience.
 
-A modern task management application featuring task creation, editing, deletion, progress tracking, timestamps, and persistent storage using Local Storage.
-
-**Tech Stack:** HTML5, CSS3, JavaScript
+**Tech Stack:** HTML5 • CSS3 • JavaScript
 
 ---
 
-### 🔹 Level 2 – Task 4
-### Login Authentication System
+### 🔹 Level 2 – Task 3 | CheckMate – To-Do List
+A modern task management application designed with a clean dashboard interface. Users can manage daily tasks, track overall progress, organize pending and completed work, and store data locally for a seamless productivity experience.
 
-A client-side authentication system featuring user registration, secure login, password hashing using SHA-256, protected routes, session management, and integration with the CheckMate To-Do application.
+**Tech Stack:** HTML5 • CSS3 • JavaScript
 
-**Tech Stack:** HTML5, CSS3, JavaScript, Web Crypto API, Local Storage
+---
+
+### 🔹 Level 2 – Task 4 | Login Authentication System
+A secure client-side authentication system integrated with the CheckMate To-Do application. It includes user registration, login validation, SHA-256 password hashing, session management, protected routes, and personalized workspaces for every registered user.
+
+**Tech Stack:** HTML5 • CSS3 • JavaScript • Web Crypto API • Local Storage
 
 ---
 
@@ -37,9 +38,11 @@ A client-side authentication system featuring user registration, secure login, p
 
 - HTML5
 - CSS3
-- JavaScript (ES6)
-- Web Crypto API
+- JavaScript (Vanilla)
+- Web Crypto API (SHA-256)
 - Local Storage
+- Google Fonts
+- Font Awesome
 
 ---
 
@@ -48,7 +51,8 @@ A client-side authentication system featuring user registration, secure login, p
 ```
 OIBSIP
 │
-├── WebDev-L1-Calculator/
+├── WebDev-L2-Task1-Calculator/
+├── WebDev-L2-TributePage/
 ├── WebDev-L2-ToDoList/
 ├── WebDev-L2-LoginAuth/
 └── README.md
@@ -56,18 +60,20 @@ OIBSIP
 
 ---
 
-## 📚 Key Concepts Learned
+## 📚 Skills Gained
+
+Throughout this internship, I gained practical experience with:
 
 - Responsive Web Design
 - DOM Manipulation
 - JavaScript Event Handling
+- Dynamic UI Development
 - Form Validation
 - Local Storage
-- Password Hashing
 - Client-side Authentication
+- Password Hashing (SHA-256)
 - Session Management
-- Dynamic UI Development
-- User-specific Data Handling
+- Building Interactive User Interfaces
 
 ---
 
@@ -79,7 +85,7 @@ Clone the repository:
 git clone https://github.com/Jhanvi-code23/OIBSIP.git
 ```
 
-Navigate to any project folder and open the respective HTML file in your preferred web browser.
+Navigate to the desired project folder and open the corresponding HTML file in your preferred web browser.
 
 ---
 
@@ -90,3 +96,7 @@ Navigate to any project folder and open the respective HTML file in your preferr
 **GitHub:** https://github.com/Jhanvi-code23
 
 **LinkedIn:** https://www.linkedin.com/in/jhanvi-gupta-318303279/
+
+---
+
+*Created as part of the Oasis Infobyte Web Development Internship (OIBSIP).*
