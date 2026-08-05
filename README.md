@@ -95,7 +95,7 @@ Navigate to the desired project folder and open the corresponding HTML file in y
 
 **GitHub:** https://github.com/Jhanvi-code23
 
-**LinkedIn:** https://www.linkedin.com/in/jhanvi-gupta-318303279/
+**LinkedIn:** https://www.linkedin.com/in/jhanvi-gupta-975514320/
 
 ---
 
