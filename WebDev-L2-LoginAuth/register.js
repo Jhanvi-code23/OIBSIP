@@ -4,10 +4,9 @@ const message = document.getElementById("message");
 // When user clicks Register
 registerForm.addEventListener("submit", async (e) => {
 
-    // Prevent page refresh
+    // avoid page refresh
     e.preventDefault();
 
-    // Get input values
     const username = document.getElementById("username").value.trim();
     const email = document.getElementById("email").value.trim().toLowerCase();
     const password = document.getElementById("password").value;
@@ -21,7 +20,9 @@ registerForm.addEventListener("submit", async (e) => {
     }
 
     //password check- minimum 8 characters and at least 1 number
-    const passwordPattern = /^(?=.*\d).{8,}$/; //^ start check of string, ?= checks if the condition exists, . any character, * zero or more times, \d checks for a digit, {.8,} . means split the string into characters and check if it has 8 or more characters, $ end of string check
+    const passwordPattern = /^(?=.*\d).{8,}$/; 
+    // ^ start check of string, ?= checks if the condition exists, . any character, * zero or more times, \d checks for a digit,
+    // {.8,} . means split the string into characters and check if it has 8 or more characters, $ end of string check
     // start checking -> at least one number somewhere -> min 8 char -> end of checking
 
 
@@ -60,41 +61,27 @@ registerForm.addEventListener("submit", async (e) => {
     // hash password 
     const hashedPassword =
         await hashPassword(password);
-
-
     const newUser = {
-
         username,
-
         email,
-
         password: hashedPassword,
-
         tasks: [] //every user gets only their tasks, so we create an empty array for tasks when a new user is registered
-
     };
 
-    // ===========================================
-    // 7. Save User
-    // ===========================================
-
+    //add user
     users.push(newUser);
 
     saveUsers(users);
 
-    // ===========================================
-    // 8. Success
-    // ===========================================
-
+    //successful
     message.style.color = "#66ff99";
 
     message.textContent =
         "Registration Successful! Redirecting...";
 
+    // move to login
     setTimeout(() => {
-
         window.location.href = "login.html";
-
     }, 1500);
 
 });
